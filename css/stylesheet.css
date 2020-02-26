@@ -1,0 +1,848 @@
+*{
+    font-family: 'Poppins';
+    overflow-x: hidden;
+    padding: 0;
+    margin:0;
+}
+
+.header{
+    padding: 22px;
+    font-size: 16px;
+    color: black;
+ }
+ .logo{
+    width:23px;
+    height:30px;
+ }
+
+ .aboutCom{
+    display: none;
+}
+
+ .svgs{
+         display:none;
+     }
+
+ #nav{
+    width: 80px;
+    height: 23px;
+    font-weight: 200;
+    position: relative;
+    left: 220px;
+ }
+ .space1{
+     display: none;
+ }
+
+ .firstSec{
+    padding: 17px;
+    text-align: center;
+}
+
+ h1{
+    font-size: 40px;
+    color: #4c95fc;
+    margin: 0 0 20px;
+    font-weight: 500;
+}
+
+
+#para1{
+    font-weight: 300;
+    margin: 12px 0px 0px;
+    font-size: 19.2px;
+    color: black;
+}
+
+.space2{
+    display: none;
+}
+
+.numbers{
+    color: #FFFFFF;
+    font-size: 16px;
+    padding: 10px 22px;
+}
+
+h2{
+    font-size: 34px;
+    margin: 0px 0px 19px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.numDiv{
+    padding: 20px 0 30px;
+    height: 80px;
+    overflow-y: hidden;
+}
+
+.space3{
+    display: none;
+}
+
+#numPara{
+    font-size: 16px;
+    margin: 0 0 19px;
+   text-align: center;
+   position: relative;
+   bottom: 20px;
+  
+}
+
+.h31{
+    padding: 17px;
+}
+
+h3{
+    font-size: 29px;
+    color: #4c95fc;
+    font-weight: 500;
+}
+
+/* The Customers section styling */
+.customers{
+    padding: 17px;
+}
+
+.CustDiv{
+    font-size: 12px;
+}
+
+.custTextDiv{
+    position: relative;
+    left: 90px;
+    bottom: 80px;
+    width: 210px;
+}
+
+#custPara{
+    font-size: 15px;
+    color: black;
+    margin: 0 0 10px;
+
+}
+
+#custEM{
+    position: relative;
+    left: 80px;
+}
+
+#quotediv{
+    padding: 17px;
+}
+
+#quote{
+    font-size: 16px;
+    padding: 19px 32px;
+    text-decoration: none;
+    color: #ffffff;
+    position: relative;
+    left: 60px;
+}
+
+/* The Pros section styling */
+.ProsDiv{
+    padding: 17px;
+    font-size: 12px;
+}
+
+.ProsText{
+    position: relative;
+    left: 90px;
+    bottom: 80px;
+    width: 210px;
+}
+
+#ProsPara{
+    font-size: 15px;
+    color: black;
+    margin: 0 0 10px;
+
+}
+
+#ProsEM{
+    position: relative;
+    left: 50px;
+}
+
+/* The Partners section styling */
+.PartDiv{
+    font-size: 12px;
+    padding: 17px;
+}
+
+.partText{
+    position: relative;
+    left: 90px;
+    bottom: 40px;
+    width: 210px;
+}
+
+#partPara{
+    font-size: 15px;
+    color: black;
+    margin: 0 0 10px;
+
+}
+
+#partEM{
+    position: relative;
+    left: 80px;
+}
+
+#Partnerquotediv{
+    padding: 17px;
+}
+
+#Partnersquote{
+    font-size: 16px;
+    padding: 19px 32px;
+    text-decoration: none;
+    color: #ffffff;
+    position: relative;
+    left: 40px;
+}
+
+/* The Teams section styling */
+
+.TeamDiv{
+    font-size: 12px;
+    padding: 17px;
+}
+
+.TeamText{
+    position: relative;
+    left: 90px;
+    bottom: 80px;
+    width: 210px;
+}
+
+#TeamPara{
+    font-size: 15px;
+    color: black;
+    margin: 0 0 10px;
+
+}
+
+#TeamEM{
+    position: relative;
+    left: 80px;
+}
+
+/* The Founders section styling */
+.founders{
+    padding: 17px;
+}
+
+.FoundersDiv{
+    margin: 0 0 66px;
+}
+
+#ArjunPic{
+    width:317px; 
+    height:112px;
+}
+
+#SayoPic{
+    width:317px;
+     height:112px;
+}
+
+.fondSpace{
+    display: none;
+}
+
+#fondquotediv{
+    font-size: 16px;
+    padding: 19px 32px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#stroke{
+  display: none;
+}
+
+.GoTo{
+    padding: 20px 0 0;
+    text-align: center;
+    font-size: 19.2px;
+}
+
+#back{
+    width: 23px;
+    height: 15px;
+    position: relative;
+    bottom: 20px;
+    left: 125px;
+}
+
+/* @media queries start here */
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .header{
+        padding: 22px 31px;
+        font-size: 16px;
+        color: black;
+     }  
+     
+     .logo{
+        width:38px;
+        height:50px;
+     }
+
+     .aboutCom{
+        display: none;
+    }
+
+     .svgs{
+         display:none;
+     }
+
+     #nav{
+        width: 80px;
+        height: 23px;
+        font-weight: 200;
+        position: relative;
+        left: 580px;
+        bottom: 10px;
+     }
+     .space1{
+         display: block;
+         padding: 0 17px 17px;
+         width: 708px;
+         height: 34px;
+     }
+     .firstSec{
+        padding: 8px 31px;
+        width: 600px;
+        height: 811px;
+        position: relative;
+        left: 80px;
+        }
+
+     h1{
+         overflow-y: hidden;
+        font-size: 48px;
+        color: #4c95fc;
+        margin: 0 0 32px;
+        width: 584px;
+        height: 204px;
+        font-weight: 500;
+        text-align: left;
+    }
+
+    #para1{
+        text-align: left;
+        line-height: 2em;
+        font-weight: 300;
+        margin: 16px 0px 0px;
+        font-size: 22px;
+        color: black;
+    }
+
+    .space2{
+        display: block;
+        padding: 17px;
+        height: 45px;
+    }
+
+    .numbers{
+        padding: 20px;
+        
+    }
+
+    .numDiv{
+        overflow: hidden;
+        width: 210px;
+        height: 150px;
+        padding: 0;
+        display: inline-block;
+    }
+
+    .space3{
+        display: block;
+        padding: 0 17px 17px;
+        width: 646px;
+        height: 34px;
+    }
+
+    .content{
+        overflow-y: hidden;
+        padding: 0 31px 15px 100px;
+        font-size: 16px;
+        color: #000000;
+        width: 735px;
+        height: 2250px;
+    }
+
+    .h31{
+        padding: 20px 0 20px;
+        width: 646px;
+        height: 42px;
+        overflow-y: hidden;
+    }
+
+    h3{
+        font-size: 32px;
+        color: #4c95fc;
+        font-weight: 500;
+    }
+    .custTextDiv{
+        position: relative;
+        left: 100px;
+        bottom: 80px;
+        width: 500px;
+    }
+    
+    #custPara{
+        font-size: 15px;
+        color: black;
+        margin: 0 0 10px;
+    }
+    br{
+        display: none;
+    }
+
+    #custEM{
+        position: relative;
+        left: 300px;
+    }
+    
+    #quotediv{
+        padding: 45px 20px;
+    }
+    
+    #quote{
+        font-size: 16px;
+        padding: 19px 32px;
+        text-decoration: none;
+        color: #ffffff;
+        position: relative;
+        left: 180px;
+    }
+    .ProsDiv{
+        padding: 20px;
+        font-size: 12px;
+    }
+    
+    .ProsText{
+        position: relative;
+        left: 90px;
+        bottom: 80px;
+        width:500px;
+    }
+    
+    #ProsPara{
+        font-size: 15px;
+        color: black;
+        margin: 0 0 10px;
+    
+    }
+    
+    #ProsEM{
+        position: relative;
+        left: 250px;
+    }
+
+    .PartDiv{
+        font-size: 12px;
+        padding: 20px;
+    }
+    
+    .partText{
+        position: relative;
+        left: 90px;
+        bottom: 40px;
+        width: 500px;
+    }
+    
+    #partPara{
+        font-size: 15px;
+        color: black;
+        margin: 0 0 10px;
+    
+    }
+    
+    #partEM{
+        position: relative;
+        left: 250px;
+    }
+    
+    #Partnerquotediv{
+        padding: 17px;
+    }
+    
+    #Partnersquote{
+        font-size: 16px;
+        padding: 19px 32px;
+        text-decoration: none;
+        color: #ffffff;
+        position: relative;
+        left: 160px;
+    }
+
+    .team{
+        padding: 0 0 0 100px;
+    }
+
+    .TeamDiv{
+        font-size: 12px;
+        padding: 20px;
+    }
+    
+    .TeamText{
+        position: relative;
+        left: 90px;
+        bottom: 80px;
+        width: 500px;
+    }
+    
+    #TeamPara{
+        font-size: 15px;
+        color: black;
+        margin: 0 0 10px;
+    
+    }
+    
+    #TeamEM{
+        position: relative;
+        left: 250px;
+    }
+
+    .founders{
+        padding: 17px;
+    }
+    
+    .FoundersDiv{
+        margin: 0 0 66px;
+    }
+
+    #ArjunPic{
+        width:531px; 
+        height:200px;
+        position: relative;
+        left: 100px;
+        padding: 0 0 20px;
+    }
+    
+    #SayoPic{
+        width:531px;
+         height:200px;
+         position: relative;
+         left: 100px;
+         padding: 0 0 20px;
+    }
+
+    .founderPara{
+        width: 580px;
+        height: 135px;
+        position: relative;
+        left: 100px;
+        padding: 20px 0 0;
+    }
+    .fondSpace{
+        display: none;
+    }
+
+    #fondquotediv{
+        display: block;
+        position: relative;
+        left: 80px;
+    }
+
+    #stroke{
+        display: block;
+        width: 768px;
+        height: 54px;
+      }
+    
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .header{
+        padding: 40px 60px;
+        font-size: 16px;
+        color: black;
+     }  
+
+     .aboutCom{
+         display: block;
+         position: relative;
+         left: 50px;
+         bottom: 40px;
+     }
+
+     .svgs{
+         display: block;
+         float: right;
+         position: relative;
+         bottom: 70px;
+     }
+
+     #nav{
+        display: none;
+     }
+
+     .space1{
+        display: block;
+        padding: 0 17px 17px;
+        width: 1250px;
+        height: 55px;
+    }
+
+    .firstSec{
+        overflow: hidden;
+        padding: 8px 31px;
+        width: 1258px;
+        height: 400px;
+        position: relative;
+        right: 400px;
+        bottom: 80px;
+        }
+
+        h1{
+            overflow-y: hidden;
+           font-size: 48px;
+           color: #4c95fc;
+           margin: 0 0 32px;
+           width: 1200px;
+           height: 204px;
+           font-weight: 500;
+           text-align: left;
+       }
+
+       #para1{
+        text-align: center;
+        position: relative;
+        bottom: 80px;
+    }
+
+       .numbers{
+        width: 100vw;
+        position: relative;
+        right: 60px;
+        bottom: 100px;
+        max-height: 150px;
+        margin: 0;
+        display: inline-block;
+        
+    }
+       .numDiv{
+      width: 450px;
+      height: 80px;
+    }
+
+    
+    .h31{
+        padding: 40px 0 40px;
+        overflow-y: hidden;
+    }
+
+    .content{
+        width: 1080px;
+        height: 2500px ;
+    }
+
+    .customers .CustDiv img{
+        width: 101px;
+        height: 101px;
+    }
+
+    .custTextDiv{
+        width: 900px;
+        overflow-wrap: break-word;
+        position: relative;
+        left: 120px;
+    }
+
+    #custEM{
+        position: relative;
+        left: 650px;
+        font-size: 16px;
+    }
+
+    #custPara{
+        font-size: 16px;
+        color: black;
+        margin: 0 0 10px;
+    }
+
+    #quotediv{
+        padding: 90px 40px;
+    }
+    
+    #quote{
+        font-size: 16px;
+        padding: 25px 40px;
+        text-decoration: none;
+        color: #ffffff;
+        position: relative;
+        left: 450px;
+    }
+
+    .ProsDiv{
+        padding: 20px;
+        font-size: 16px;
+    }
+    
+    .ProsText{
+        width:900px;
+    }
+    
+    #ProsPara{
+        font-size: 15px;
+        color: black;
+        margin: 0 0 10px;
+    
+    }
+    
+    #ProsEM{
+        position: relative;
+        left: 550px;
+    }
+    
+
+    .PartDiv{
+        font-size: 16px;
+        height: 90px;
+        overflow: hidden;
+    }
+    
+    .partText{
+        width: 900px;
+    }
+    
+    #partPara{
+        font-size: 16px;
+    
+    }
+    
+    #partEM{
+        position: relative;
+        left: 580px;
+    }
+    
+    #Partnerquotediv{
+        padding: 20px;
+    }
+    
+    #Partnersquote{
+        position: relative;
+        left: 430px;
+    }
+
+    .team{
+        padding: 0 0 0 100px;
+    }
+
+    .TeamDiv{
+        font-size: 12px;
+        padding: 20px;
+    }
+    
+    .TeamText{
+        position: relative;
+        left: 90px;
+        bottom: 80px;
+        width: 500px;
+    }
+    
+    #TeamPara{
+        font-size: 15px;
+        color: black;
+        margin: 0 0 10px;
+    
+    }
+    
+    #TeamEM{
+        position: relative;
+        left: 250px;
+    }
+
+    .TeamDiv{
+        font-size: 16px;
+    }
+    
+    .TeamText{
+        width: 900px;
+    }
+    
+    #TeamPara{
+        font-size: 16px;
+    }
+    
+    #TeamEM{
+        position: relative;
+        left: 600px;
+    }
+
+    
+    .FoundersDiv{
+        display: inline-block;
+        width: 600px;
+    }
+
+    .FoundName{
+        position: relative;
+        left: 20px;
+       
+    }
+
+    /* #ArjunFond{
+        font-size: 15.1px;
+    } */
+
+    #ArjunPic{
+        width:425px; 
+        height:150px;
+        padding: 40px 0 40px;
+    }
+    
+    #SayoPic{
+        width:425px;
+         height:150px;
+         padding: 40px 0 40px;
+    }
+
+    .founderPara{
+        width: 500px;
+        height: 200px;
+        overflow-x: visible;
+    
+    }
+
+    #fondquotediv{
+        display: block;
+        position: relative;
+        left: 80px;
+    }
+
+    #stroke{
+        display: block;
+        width: 1500px;
+        height: 54px;
+      }
+
+      .GoTo{
+        font-size: 22px;
+        overflow-y: hidden;
+    }
+    
+    #back{
+        width: 23px;
+        height: 30px;
+        position: relative;
+        bottom: 30px;
+        left: 145px;
+    }
+    
+
+    
+}
