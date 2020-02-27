@@ -32,12 +32,34 @@
     z-index: 3;
  }
 
+ .page{
+     position: relative;
+     top: 200px;
+     left: 40px;
+     font-size: 32px;
+     font-weight: 300;
+ }
+
+ #PI{
+     position: relative;
+     top: 380px;
+     left: 90px;
+ }
+
+ .openNav{
+     display: none;
+     width: 100vw;
+     height: 85vh;
+ }
+
  .navActive .line1{
-    animation: open 1s;
+    animation: open 0.5s;
+    transform: rotate(-45deg);
  }
 
  .navActive .line2{
-    animation: openbottom 1s;
+    animation: openbottom 0.5s;
+    transform: rotate(45deg);
      }
 
  .line1{
@@ -51,7 +73,7 @@
     width: 33px;
     height: 0.8px;
     background-color: black;
-    margin-top: 1rem;
+    margin-top: 10px;
  }
 
  .space1{
@@ -305,16 +327,12 @@ h3{
 /* keyframes */
 @keyframes open{
     from{transform:rotate(0)}
-    to{transform: 
-        translateY(8px)
-        rotate(-45deg);}
+    to{transform:rotate(-45deg);}
 }
 
 @keyframes openbottom{
     from{transform:rotate(0)}
-    to{transform:
-        translateX(5px)
-        rotate(45deg);}
+    to{transform:rotate(45deg);}
 }
 
 
